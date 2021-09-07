@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleSheet/template.css">
+      <link rel="stylesheet" href="./styleSheet/login.css">
+
+    <script src="https://kit.fontawesome.com/2c1caecb37.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+    <body>
+        <nav>
+            <span class="zoom nav-bar-item"> <a href="#">Test 1</a> </span>
+            <span class="zoom nav-bar-item"> <a href="#">Test 2</a> </span>
+            <span class="zoom nav-bar-item"> <a href="#">Test 3</a> </span>
+            <span class="zoom nav-bar-item"> <a href="#">Test 4</a> </span>
+            <span class="zoom nav-bar-item"> <a href="#">Test 5</a> </span>
+            <span class="search-bar nav-bar-item">
+                <input type="text" name="search" placeholder="Search">
+                <button id="search-button">
+                    <i class="fa fa-search"></i>
+                </button>
+            </span>
+            <div class="nav-bar-item" id="logo-div">
+                <span id = "logo"> Logo Goes Here </span>
+            </div>
+        </nav>
+
+        <div id="main-body">
+
+            <div class="background">
+                <!--Your code goes here-->
+                <h3 id="main-title"> Logo Goes Here | Name goes here </h3>
+
+            </div>
+            <div class="content">
+              <form action="/action_page.php">
+                <div class="row">
+                  <h2 style="text-align:center">Login with Social Media or Manually</h2>
+                  <div class="vl">
+                    <span class="vl-innertext">or</span>
+                  </div>
+
+                  <div class="col">
+                    <a href="https://www.facebook.com/" class="fb btn">
+                      <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                     </a>
+                    <a href="https://twitter.com/?lang=en" class="twitter btn">
+                      <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                    </a>
+                    <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="google btn"><i class="fa fa-google fa-fw">
+                      </i> Login with Google+
+                    </a>
+                  </div>
+
+                  <div class="col">
+                    <div class="hide-md-lg">
+                      <p>Or sign in manually:</p>
+                    </div>
+
+                    <input class="cred" type="text" name="username" placeholder="Username" required>
+                    <input class="cred" type="password" name="password" placeholder="Password" required>
+                    <input type="submit" value="Login">
+                  </div>
+
+                </div>
+              </form>
+              <div class="bottom-container">
+                <div class="row">
+                  <div class="col">
+                    <a href="#" style="color:white" class="btn">Sign up</a>
+                  </div>
+                  <div class="col">
+                    <a href="#" style="color:white" class="btn">Forgot password?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="bottom-page">
+
+
+                <footer>
+                    <p> Copyright &copy; 2021 Minders'21 IT Team 1.</p>
+                </footer>
+            </div>
+        </div>
+
+    </body>
+</html>
